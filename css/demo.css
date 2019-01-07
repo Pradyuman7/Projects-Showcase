@@ -9,8 +9,8 @@
 }
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " "; 
+    display: table; 
 }
 
 .clearfix:after {
@@ -81,7 +81,7 @@ a{
 	font-style: italic;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.9);
 }
-/* Header Style */
+
 .codrops-top{
 	line-height: 24px;
 	font-size: 11px;
@@ -109,13 +109,14 @@ a{
 	float: left;
 	display: block;
 }
-/* Demo Buttons Style */
+
 .codrops-demos{
     text-align:center;
 	display: block;
 	line-height: 30px;
 	padding: 5px 0px;
 }
+/* took from css school */
 .codrops-demos a{
     display: inline-block;
 	margin: 0px 4px;
@@ -129,7 +130,7 @@ a{
 	background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); 
 	background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
 	background: linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
