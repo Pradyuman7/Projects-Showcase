@@ -134,6 +134,8 @@
 
 .sb-container div img{
 	display: inline-block;
+	width: 30px;
+	height: 40px;
 }
 
 .sb-container div:last-child h4{
