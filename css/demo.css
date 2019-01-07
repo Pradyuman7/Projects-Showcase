@@ -151,8 +151,8 @@ a{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
 }
 .support-note span{
-	color: #ac375d;
-	font-size: 16px;
+	color: #999999;
+	font-size: 20px;
 	display: none;
 	font-weight: bold;
 	text-align: center;
