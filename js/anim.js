@@ -2,7 +2,7 @@
 	
 	'use strict';
 
-	// global
+	
 	var Modernizr = window.Modernizr;
 
 	jQuery.fn.reverse = [].reverse;
@@ -15,24 +15,23 @@
 	};
 
 	$.SwatchBook.defaults = {
-		// index of initial centered item
+		
 		center : 6,
-		// number of degrees that is between each item
+		
 		angleInc : 8,
 		speed : 700,
 		easing : 'ease',
-		// amount in degrees for the opened item's next sibling
-		proximity : 45,
-		// amount in degrees between the opened item's next siblings
+		
+		proximity : 60,
+		
 		neighbor : 4,
-		// animate on load
+		
 		onLoadAnim : true,
-		// if it should be closed by default
+		
 		initclosed : false,
-		// index of the element that when clicked, triggers the open/close function
-		// by default there is no such element
+		
 		closeIdx : -1,
-		// open one specific item initially (overrides initclosed)
+		
 		openAt : -1
 	};
 
