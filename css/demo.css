@@ -94,7 +94,7 @@ a{
 .codrops-top a{
 	padding: 0px 10px;
 	letter-spacing: 1px;
-	color: #333;
+	color: #FFFFFF;
 	display: inline-block;
 }
 .codrops-top a:hover{
@@ -119,7 +119,7 @@ a{
     display: inline-block;
 	margin: 0px 4px;
 	padding: 0px 6px;
-	color: #aaa;
+	color: #FFFFFF;
 	line-height: 20px;	
 	font-size: 13px;
 	text-shadow: 1px 1px 1px #fff;
@@ -139,7 +139,7 @@ a{
 	background: #fff;
 }
 .codrops-demos a:active{
-	background: #fff;
+	background: #FFFFFF;
 }
 .codrops-demos a.current-demo,
 .codrops-demos a.current-demo:hover{
