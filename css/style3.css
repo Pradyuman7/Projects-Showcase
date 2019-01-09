@@ -194,10 +194,22 @@ span.sb-toggle a{
 	margin: 10px;
 	display: block;
 	color: #FFFFFF;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 700;
 	text-transform: uppercase;
-	line-height: 15px;
+	line-height: 13px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.1);
+	text-align: center;
+}
+span.sb-toggle a:hover{
+	padding: 20px;
+	margin: 10px;
+	display: block;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 13px;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.1);
 	text-align: center;
 }
