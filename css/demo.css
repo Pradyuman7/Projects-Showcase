@@ -43,8 +43,8 @@ a{
 	margin: 0;
 }
 .main{
-	width: 1000px;
-	height: 700px;
+	width: auto;
+	height: 100vh;
 	overflow: hidden;
 	margin: 0 auto;
 	position: relative;
